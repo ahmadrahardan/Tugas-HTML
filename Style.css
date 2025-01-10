@@ -1,0 +1,107 @@
+.bodyprofil {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; 
+}
+
+.container {
+    width: 60%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.foto {
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: solid;
+}
+
+.nama {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tombol:hover {
+    background-color: white;
+    color: black
+}
+
+.bodydetail {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; 
+}
+
+.containerdetail {
+    width: 60%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.detail {
+    height: 350px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    border: solid;
+}
+
+.bodytabel {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; 
+}
+
+.containertabel {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tabel {
+    width: 100%;
+}
+
+.tabel, .tabel th, .tabel td {
+    border-style: solid;
+    border-width: 2px;
+    border-collapse: collapse;
+}
